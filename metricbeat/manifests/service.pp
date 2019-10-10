@@ -3,6 +3,6 @@
 # A description of what this class does
 #
 # @example
-#   include metric::metricbeat
-class metric::metricbeat {
+#   include metricbeat::service
+class metricbeat::service {
 }

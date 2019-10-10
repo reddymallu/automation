@@ -1,11 +1,6 @@
 require 'spec_helper'
 
-describe 'metric::metricdefined' do
-  let(:title) { 'namevar' }
-  let(:params) do
-    {}
-  end
-
+describe 'metricbeat::install' do
   on_supported_os.each do |os, os_facts|
     context "on #{os}" do
       let(:facts) { os_facts }
